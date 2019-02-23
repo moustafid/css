@@ -1,0 +1,499 @@
+﻿@charset "UTF-8";
+/* '¯áÇ' */
+/* '¯áü' */
+/* '¯áé' */
+/* '¯áâ' */
+/* '¯áä' */
+/* '¯áà' */
+/* '¯áå' */
+/* '¯áç' */
+/* '¯áê' */
+/* '¯áë' */
+/* '¯áè' */
+/* '¯áï' */
+/* '¯áî' */
+/* '¯áì' */
+/* '¯áÅ' */
+/* '¯áÉ' */
+/* '¯áæ' */
+/* '¯áÆ' */
+/* '¯áô' */
+/* '¯áö' */
+/* '¯áò' */
+/* '¯áû' */
+/* '¯áù' */
+/* '¯á£' */
+/* '¯áØ' */
+/* '¯á×' */
+/* '¯áƒ' */
+/* '¯áá' */
+/* '¯áí' */
+/* '¯áó' */
+/* '¯áú' */
+/* '¯áñ' */
+/* '¯áÑ' */
+/* '¯áº' */
+/* '¯áÄ' */
+/* '¯áÿ' */
+/* '¯áÖ' */
+/* '¯áÜ' */
+/* '¯áø' */
+/* '¯áª' */
+/* '¯á¿' */
+/* '¯á®' */
+/* '¯á½' */
+/* '¯á¼' */
+/* '¯á¬' */
+/* '¯á¡' */
+/* '¯á«' */
+/* '¯á»' */
+/* '¯á░' */
+/* '¯á▒' */
+/* '¯á▓' */
+/* '¯á│' */
+/* '¯á┤' */
+/* '¯áÁ' */
+/* '¯á©' */
+/* '¯á©' */
+/* '¯áÂ' */
+/* '¯á╣' */
+/* '¯á║' */
+/* '¯á╗' */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'almoustafidinc';
+  src: url("https://github.com/moustafid/css/almoustafidinc.eot?1.0.0");
+  src: url("https://github.com/moustafid/css/almoustafidinc.eot?1.0.0#iefix") format("embedded-opentype"), url("../fonts/almoustafidinc.woff2?1.0.0") format("woff2"), url("../fonts/almoustafidinc.woff?1.0.0") format("woff"), url("../fonts/almoustafidinc.ttf?1.0.0") format("truetype"), url("../fonts/almoustafidinc.svg?1.0.0#almoustafidinc") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.fm {
+  display: inline-block;
+  font: normal normal normal 14px/1 almoustafidinc;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* makes the font 33% larger relative to the icon container */
+.fm-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+.fm-2x {
+  font-size: 2em; }
+
+.fm-25x {
+  font-size: 2.5em; }
+
+.fm-3x {
+  font-size: 3em; }
+
+.fm-35x {
+  font-size: 3.5em; }
+
+.fm-4x {
+  font-size: 4em; }
+
+.fm-45x {
+  font-size: 4.5em; }
+
+.fm-5x {
+  font-size: 5em; }
+
+.fm-55x {
+  font-size: 5.5em; }
+
+.fm-6x {
+  font-size: 6em; }
+
+.fm-65x {
+  font-size: 6.5em; }
+
+.fm-7x {
+  font-size: 7em; }
+
+.fm-75x {
+  font-size: 7.5em; }
+
+.fm-8x {
+  font-size: 8em; }
+
+.fm-85x {
+  font-size: 8em; }
+
+.fm-fw {
+  width: 1.2857142857em;
+  text-align: center; }
+
+.fm-ul {
+  padding-left: 0;
+  margin-left: 2.1428571429em;
+  list-style-type: none; }
+  .fm-ul > li {
+    position: relative; }
+
+.fm-li {
+  position: absolute;
+  left: -2.1428571429em;
+  width: 2.1428571429em;
+  top: 0.1428571429em;
+  text-align: center; }
+  .fm-li.fm-lg {
+    left: -1.8571428571em; }
+
+.fm-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em; }
+
+.fm-pull-left {
+  float: left; }
+
+.fm-pull-right {
+  float: right; }
+
+.fm.fm-pull-left {
+  margin-right: .3em; }
+.fm.fm-pull-right {
+  margin-left: .3em; }
+
+/* Deprecated as of 4.4.0 */
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+.fm.pull-left {
+  margin-right: .3em; }
+.fm.pull-right {
+  margin-left: .3em; }
+
+.fm-spin {
+  -webkit-animation: fm-spin 2s infinite linear;
+  animation: fm-spin 2s infinite linear; }
+
+.fm-pulse {
+  -webkit-animation: fm-spin 1s infinite steps(8);
+  animation: fm-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fm-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+@keyframes fm-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+.fm-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.fm-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.fm-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+.fm-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+.fm-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+:root .fm-rotate-90,
+:root .fm-rotate-180,
+:root .fm-rotate-270,
+:root .fm-flip-horizontal,
+:root .fm-flip-vertical {
+  filter: none; }
+
+.fm-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+.fm-stack-1x, .fm-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+.fm-stack-1x {
+  line-height: inherit; }
+
+.fm-stack-2x {
+  font-size: 2em; }
+
+.fm-inverse {
+  color: #fff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.fm-Moustafid:before {
+  content: ""; }
+
+/* '¯áÇ' */
+.fm-github:before {
+  content: ""; }
+
+/* '¯áü' */
+.fm-facebook:before {
+  content: ""; }
+
+/* '¯áé' */
+.fm-google-plus:before {
+  content: ""; }
+
+/* '¯áâ' */
+.fm-youtube:before {
+  content: ""; }
+
+/* '¯áä' */
+.fm-twitter:before {
+  content: ""; }
+
+/* '¯áà' */
+.fm-check:before {
+  content: ""; }
+
+/* '¯áå' */
+.fm-setting:before {
+  content: ""; }
+
+/* '¯áç' */
+.fm-add-user:before {
+  content: ""; }
+
+/* '¯áê' */
+.fm-update-user:before {
+  content: ""; }
+
+/* '¯áë' */
+.fm-delete-user:before {
+  content: ""; }
+
+/* '¯áè' */
+.fm-delete:before {
+  content: ""; }
+
+/* '¯áï' */
+.fm-pencil:before {
+  content: ""; }
+
+/* '¯áî' */
+.fm-home:before {
+  content: ""; }
+
+/* '¯áì' */
+.fm-linux:before {
+  content: ""; }
+
+/* '¯áÅ' */
+.fm-javascript:before {
+  content: ""; }
+
+/* '¯áÉ' */
+.fm-php:before {
+  content: ""; }
+
+/* '¯áæ' */
+.fm-css3:before {
+  content: ""; }
+
+/* '¯áÆ' */
+.fm-html5:before {
+  content: ""; }
+
+/* '¯áô' */
+.fm-coding:before {
+  content: ""; }
+
+/* '¯áö' */
+.fm-windows:before {
+  content: ""; }
+
+/* '¯áò' */
+.fm-time:before {
+  content: ""; }
+
+/* '¯áû' */
+.fm-menu:before {
+  content: ""; }
+
+/* '¯áù' */
+.fm-adobe-illustrator:before {
+  content: ""; }
+
+/* '¯á£' */
+.fm-adobe-photoshop:before {
+  content: ""; }
+
+/* '¯áØ' */
+.fm-key:before {
+  content: ""; }
+
+/* '¯á×' */
+.fm-envelope:before {
+  content: ""; }
+
+/* '¯áƒ' */
+.fm-chevron-arrow-left:before {
+  content: ""; }
+
+/* '¯áá' */
+.fm-chevron-arrow-right:before {
+  content: ""; }
+
+/* '¯áí' */
+.fm-chevron-arrow-up:before {
+  content: ""; }
+
+/* '¯áó' */
+.fm-chevron-arrow-down:before {
+  content: ""; }
+
+/* '¯áú' */
+.fm-eye-close:before {
+  content: ""; }
+
+/* '¯áñ' */
+.fm-search:before {
+  content: ""; }
+
+/* '¯áÑ' */
+.fm-eye-open:before {
+  content: ""; }
+
+/* '¯áº' */
+.fm-youtube-1:before {
+  content: ""; }
+
+/* '¯áÄ' */
+.fm-twitter-1:before {
+  content: ""; }
+
+/* '¯áÿ' */
+.fm-facebook-1:before {
+  content: ""; }
+
+/* '¯áÖ' */
+.fm-google-plus-1:before {
+  content: ""; }
+
+/* '¯áÜ' */
+.fm-users:before {
+  content: ""; }
+
+/* '¯áø' */
+.fm-Statistics:before {
+  content: ""; }
+
+/* '¯áª' */
+.fm-category:before {
+  content: ""; }
+
+/* '¯á¿' */
+.fm-comment:before {
+  content: ""; }
+
+/* '¯á®' */
+.fm-plus:before {
+  content: ""; }
+
+/* '¯á½' */
+.fm-config:before {
+  content: ""; }
+
+/* '¯á¼' */
+.fm-fullscreen:before {
+  content: ""; }
+
+/* '¯á¬' */
+.fm-android:before {
+  content: ""; }
+
+/* '¯á¡' */
+.fm-time-1:before {
+  content: ""; }
+
+/* '¯á«' */
+.fm-female:before {
+  content: ""; }
+
+/* '¯á»' */
+.fm-group:before {
+  content: ""; }
+
+/* '¯á░' */
+.fm-male:before {
+  content: ""; }
+
+/* '¯á▒' */
+.fm-eng:before {
+  content: ""; }
+
+/* '¯á▓' */
+.fm-ar:before {
+  content: ""; }
+
+/* '¯á│' */
+.fm-check-user:before {
+  content: ""; }
+
+/* '¯á┤' */
+.fm-picture:before {
+  content: ""; }
+
+/* '¯áÁ' */
+.fm-image:before {
+  content: ""; }
+
+/* '¯áÀ' */
+.fm-close:before {
+  content: ""; }
+
+/* '¯á©' */
+.fm-cross-circle:before {
+  content: ""; }
+
+/* '¯áÂ' */
+.fm-check-circle:before {
+  content: ""; }
+
+/* '¯á╣' */
+.fm-warning-circle:before {
+  content: ""; }
+
+/* '¯á║' */
+.fm-world:before {
+  content: ""; }
+
+/* '¯á╗' */
+
+/*# sourceMappingURL=font-inc.css.map */
